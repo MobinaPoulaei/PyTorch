@@ -1,4 +1,4 @@
-#GRU with PyTorch
+**GRU with PyTorch**
 This Jupyter Notebook demonstrates how to implement a Gated Recurrent Unit (GRU) using PyTorch. GRUs are a type of recurrent neural network (RNN) architecture that are widely used in various sequence modeling tasks due to their ability to capture temporal dependencies in data.
 
 **Introduction**
