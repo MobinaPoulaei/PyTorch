@@ -1,13 +1,17 @@
-**GRU with PyTorch**
+# GRU with PyTorch
+
 This Jupyter Notebook demonstrates how to implement a Gated Recurrent Unit (GRU) using PyTorch. GRUs are a type of recurrent neural network (RNN) architecture that are widely used in various sequence modeling tasks due to their ability to capture temporal dependencies in data.
 
 **Introduction**
+
 This notebook provides a step-by-step guide to building and training a GRU model with PyTorch. The GRU model is designed to handle sequential data and is particularly useful in tasks like time series forecasting, natural language processing, and more.
 
 **Dataset**
+
 The dataset used in this notebook is a time series dataset. The notebook includes code to load and preprocess the dataset, making it suitable for training the GRU model. Ensure that your dataset is in a compatible format, such as a CSV file, and properly preprocessed before feeding it into the model.
 
 **Model Architecture**
+
 The GRU model is implemented using PyTorch's nn.GRU module. The architecture consists of the following components:
 
 - An embedding layer to convert input data into dense vectors.
@@ -16,7 +20,8 @@ The GRU model is implemented using PyTorch's nn.GRU module. The architecture con
 - The notebook provides detailed code and explanations for each part of the model.
 
 **Training the Model**
-The notebook includes a training loop to train the GRU model on the provided dataset. Key steps involved in the training process are:
+
+Key steps involved in the training process are:
 
 - Initializing the model, loss function, and optimizer.
 - Forward pass: feeding the input data through the model to obtain predictions.
@@ -25,4 +30,5 @@ The notebook includes a training loop to train the GRU model on the provided dat
 - Evaluating the model on a validation set to monitor its performance.
 
 **Evaluating the Model**
+
 After training, the notebook demonstrates how to evaluate the model's performance using various metrics and visualizations. This includes plotting the training and validation loss over epochs, and other relevant metrics to assess the model's accuracy and generalization.
