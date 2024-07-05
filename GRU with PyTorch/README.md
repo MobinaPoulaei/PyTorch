@@ -28,7 +28,3 @@ Key steps involved in the training process are:
 - Calculating the loss between predictions and actual values.
 - Backward pass: updating the model parameters to minimize the loss.
 - Evaluating the model on a validation set to monitor its performance.
-
-**Evaluating the Model**
-
-After training, the notebook demonstrates how to evaluate the model's performance using various metrics and visualizations. This includes plotting the training and validation loss over epochs, and other relevant metrics to assess the model's accuracy and generalization.
