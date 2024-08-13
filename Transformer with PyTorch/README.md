@@ -29,6 +29,8 @@ The model is trained using the following settings:
 - Loss function: Binary Cross-Entropy Loss
 - Optimizer: AdamW
 - Number of epochs: 20
+
+For more detailed steps and a comprehensive guide to implementing a model like this, you can refer to this blog post[https://cafetadris.com/blog/%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%DA%AF%D8%A7%D9%85%D8%A8%D9%87%DA%AF%D8%A7%D9%85-%D9%BE%DB%8C%D8%A7%D8%AF%D9%87%D8%B3%D8%A7%D8%B2%DB%8C-%D9%85%D8%AF%D9%84%D9%87/], which provides a step-by-step guide to building similar models.
 - Early stopping with patience: 5 epochs
 
 **Evaluation**
