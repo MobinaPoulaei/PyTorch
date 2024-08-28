@@ -28,3 +28,5 @@ Key steps involved in the training process are:
 - Calculating the loss between predictions and actual values.
 - Backward pass: updating the model parameters to minimize the loss.
 - Evaluating the model on a validation set to monitor its performance.
+
+For more detailed steps and a comprehensive guide to implementing a model like this, you can refer to this [blog post](https://cafetadris.com/blog/%d8%b3%d9%81%d8%b1-%d8%a8%d9%87-%d8%af%d9%86%db%8c%d8%a7%db%8c-%d8%b4%d8%a8%da%a9%d9%87-%d8%b9%d8%b5%d8%a8%db%8c-%d8%a8%d8%a7%d8%b2%da%af%d8%b4%d8%aa%db%8c-%d8%a8%d8%a7-pytorch/), which provides a step-by-step guide to building similar models.
